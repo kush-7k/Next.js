@@ -3,12 +3,24 @@ REACT SERVER COMPONENTS (RSC)
  -> Server components
  -> Client components
 
- By Default,
+  Server components
+  By Default,
   All components are server components
   They can read files or fetch data from database
   They do not have ability to use hooks or hndle user intercations
 
   Client components
   To create a client components, we need to write "use client" at the top of the component files
-  They can use hooks and handle user intercations
+  They can use hooks and handle user intercations.
+
+ROUTING
+ 
+  It has file based routing mechanism
+  ALl routes must be placed in app folder
+  Every file that corresponds to a route must be named as page.js or page.tsx
+  Each folder corresponds to path segments in the URL
+  There are many stages of routing
+   > localhost/home
+   > localhost/about, and many mroe
+   > localhost/blog/first,second
 
