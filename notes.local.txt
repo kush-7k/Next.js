@@ -1,0 +1,14 @@
+REACT SERVER COMPONENTS (RSC)
+ This architetcture provides a new way of creating react components , by spiltting them into two types
+ -> Server components
+ -> Client components
+
+ By Default,
+  All components are server components
+  They can read files or fetch data from database
+  They do not have ability to use hooks or hndle user intercations
+
+  Client components
+  To create a client components, we need to write "use client" at the top of the component files
+  They can use hooks and handle user intercations
+
