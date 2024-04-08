@@ -22,5 +22,6 @@ ROUTING
   There are many stages of routing
    > localhost/home
    > localhost/about, and many mroe
-   > localhost/blog/first,second
+   > localhost/blog/first,second (This is known as nested routes)
+   > localhost/products/id  (On going to products, then there can be prod1,2,3 and clicking on each leads to 1,2,3 details) 
 
