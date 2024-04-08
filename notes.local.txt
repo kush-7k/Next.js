@@ -5,7 +5,7 @@ REACT SERVER COMPONENTS (RSC)
 
   Server components
   By Default,
-  All components are server components
+  All components are server components IN NEXT.js
   They can read files or fetch data from database
   They do not have ability to use hooks or hndle user intercations
 
@@ -24,4 +24,29 @@ ROUTING
    > localhost/about, and many mroe
    > localhost/blog/first,second (This is known as nested routes)
    > localhost/products/id  (On going to products, then there can be prod1,2,3 and clicking on each leads to 1,2,3 details) 
+   > localhost/products/id/reviews/id (This is nested dynamic routing)
+   > This is known as catch all segments
+    localhost/docs/feature1/concept1
+    localhost/docs/feature1/concept2
+
+  HOW TO DEFINE CUSTOM NOT FOUND PAGE
+   To create this we need to create a file called not-found.tsx  
+
+PRIVATE FOLDERS
+ > This folders indicates that it is a private implementation detail and should not be
+   considered by routing system.
+ > The private folders and it's subfolders are excluded from routing.
+ > In order to create private folder, we need to add an underscore as prefix for the folder name.
+ USES
+ > For seperating the UI logic from routing logic.
+ > For consistently organizing the internal files across a project.
+ > For sorting and grouping files in code editors.
+ > For avoiding potentional naming conflicts with future Next.js file conventions.
+
+ (*) IF YOU WANT TO INCLUDE AN UNDERSCORE IN URL SEGMENTS, YOU CAN PREFIX THE FOLDER NAME with
+ "%5F", WHICH IS THE URL-ENCODED FORM OF AN UNDERSCORE.
+
+ROUTE GROUPS
+> Allow us to logically group our routes and project files without affecting the URL path structure
+
 
