@@ -47,6 +47,16 @@ PRIVATE FOLDERS
  "%5F", WHICH IS THE URL-ENCODED FORM OF AN UNDERSCORE.
 
 ROUTE GROUPS
-> Allow us to logically group our routes and project files without affecting the URL path structure
+ > Allow us to logically group our routes and project files without affecting the URL path structure
+
+ What is the use of ()
+ This is generally useful to avoid the route of that particular folder for example we have (auth) in the ()
+ therefore localhost/auth/login becomes localhost/login
+
+LAYOUTS
+ A layout is a UI that is shared between multiple pages.
+ We can also create nested layout.
+ Route group layout as well.
+
 
 
