@@ -69,3 +69,7 @@ CONFIGURING METADATA
 
 METADATA rules
  Both layout.tsx and page.tsx files can export metadata. 
+
+TITLE METADATA
+ It's primary funciton is to define the document TITLE
+ It can be either string or an object
