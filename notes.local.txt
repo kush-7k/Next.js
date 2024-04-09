@@ -58,5 +58,14 @@ LAYOUTS
  We can also create nested layout.
  Route group layout as well.
 
+ROUTING METADATA
+ This ensures proper SEO is crucial for increasing visibility and attracting users.
+ Next.js introduced the MetaData API which allows you to define metdata for each page.
+ Metadata ensures accurate and relevant information us displayed when pages are shared.
 
+CONFIGURING METADATA
+ Export a static metadata object
+ Export a dynamic generate Metadata function
 
+METADATA rules
+ Both layout.tsx and page.tsx files can export metadata. 
