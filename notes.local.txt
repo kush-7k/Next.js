@@ -88,4 +88,6 @@ loading.tsx
  Benefits
  -> You can display loading state as soon as user navigates to new route
  -> Next.js allows the creation of shared kayouts that remain interactive while new route segment are loading.
- 
+
+error.tsx
+It helps to make sures that the error created in a particular area is only affected inetead of whole website
