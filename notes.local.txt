@@ -91,3 +91,10 @@ loading.tsx
 
 error.tsx
 It helps to make sures that the error created in a particular area is only affected inetead of whole website
+
+Error Handling through nested routes 
+  -> errors bubble upto the closest parent error boundary
+  -> An error.tsx file will cater to errors for all its nested child SEGMENTS
+  -> By positioning error.tsx file into the different levels in the nested folders of a route, you can achieve a more 
+  granular level pf error handling.
+  -> The placement of the error.tsx plays more important role and place accordingly to the measuring the error handling
