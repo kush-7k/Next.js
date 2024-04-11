@@ -81,3 +81,11 @@ NAVIGATION
  This enhance the user experience by styling active links
  ->Navigating programatically is helpful when someone is filling the form and after submitting it, gets redirected to confirmation
  page.
+
+loading.tsx
+ This file allows us ti create loaading states that are displayed to users while a specific route segment's
+ content is loading.
+ Benefits
+ -> You can display loading state as soon as user navigates to new route
+ -> Next.js allows the creation of shared kayouts that remain interactive while new route segment are loading.
+ 
