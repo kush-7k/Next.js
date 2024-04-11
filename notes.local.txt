@@ -97,4 +97,14 @@ Error Handling through nested routes
   -> An error.tsx file will cater to errors for all its nested child SEGMENTS
   -> By positioning error.tsx file into the different levels in the nested folders of a route, you can achieve a more 
   granular level pf error handling.
-  -> The placement of the error.tsx plays more important role and place accordingly to the measuring the error handling
+  -> The placement of the error.tsx plays more important role and place accordingly to the measuring the error handling.
+
+Error handling in LAYOUTS
+ An error.tsx file will hande errors for all its  nested child segments
+ The error boundary does not cathches errors thrown in layourts because its nested inside the layouts components.
+
+PARALLEL ROUTES
+
+Parallel routing in Next.js refers to the ability to prefetch and pre-render multiple pages simultaneously,
+ improving performance by reducing the delay between page transitions. It's achieved through automatic 
+ code splitting and prefetching, ensuring a smoother user experience.
