@@ -79,3 +79,5 @@ NAVIGATION
  We can use Link component.
  ACTIVE Link
  This enhance the user experience by styling active links
+ ->Navigating programatically is helpful when someone is filling the form and after submitting it, gets redirected to confirmation
+ page.
