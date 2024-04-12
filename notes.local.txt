@@ -106,4 +106,4 @@ Error handling in LAYOUTS
 PARALLEL ROUTES
  Parallel routing in Next.js refers to the ability to prefetch and pre-render multiple pages simultaneously,
  improving performance by reducing the delay between page transitions. It's achieved through automatic 
- code splitting and prefetching, ensuring a smoother user experience.
+ code splitting and prefetching, ensuring a smoother user experience.THIS IS REALLY IMP
