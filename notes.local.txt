@@ -104,7 +104,6 @@ Error handling in LAYOUTS
  The error boundary does not cathches errors thrown in layourts because its nested inside the layouts components.
 
 PARALLEL ROUTES
-
-Parallel routing in Next.js refers to the ability to prefetch and pre-render multiple pages simultaneously,
+ Parallel routing in Next.js refers to the ability to prefetch and pre-render multiple pages simultaneously,
  improving performance by reducing the delay between page transitions. It's achieved through automatic 
  code splitting and prefetching, ensuring a smoother user experience.
