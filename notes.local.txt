@@ -107,3 +107,8 @@ PARALLEL ROUTES
  Parallel routing in Next.js refers to the ability to prefetch and pre-render multiple pages simultaneously,
  improving performance by reducing the delay between page transitions. It's achieved through automatic 
  code splitting and prefetching, ensuring a smoother user experience.THIS IS REALLY IMP
+
+INTERCEPTING ROUTES
+ These routes allows youto intercept or stop the default routing behaviour ti present an alternate view or 
+ component when navigating through UI, while still preserving the intenderd.
+ This is really useful as it does not navigates to new routes and opens a modal on the same page.
