@@ -112,3 +112,7 @@ INTERCEPTING ROUTES
  These routes allows youto intercept or stop the default routing behaviour ti present an alternate view or 
  component when navigating through UI, while still preserving the intenderd.
  This is really useful as it does not navigates to new routes and opens a modal on the same page.
+  (.) to match segments on the same level
+  (..) to match segments above one level
+  (..)(..) to match segments two level above
+  (...) to match segments from the root app directory
